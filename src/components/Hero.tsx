@@ -50,13 +50,14 @@ const Hero = () => {
         
 
        
-          <motion.button
-            className="btn-coral text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2"
-            whileHover={{ }}
-          >
-            Our Work
-            <ArrowRight size={20} />
-          </motion.button>
+          <motion.a
+  href="#work"
+  className="btn-coral text-white px-8 py-4 rounded-full font-medium inline-flex items-center gap-2"
+  whileHover={{ scale: 1.05, y: -2 }}
+>
+  Our Work
+  <ArrowRight size={20} />
+</motion.a>
       </div>
     </section>
   );
