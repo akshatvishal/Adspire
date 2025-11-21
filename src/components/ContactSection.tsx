@@ -3,28 +3,20 @@ import { Description } from "@radix-ui/react-toast";
 export default function ContactSection() {
   const contacts = [
     {
-      label: 'Akshat Vishal',
-      value: 'linkedin.com/in/akshatvishal',
-      href: 'https://linkedin.com/in/akshatvishal',
-      img: '/photos/me.jpg',
+      label: "Akshat Vishal",
+      value: "linkedin.com/in/akshatvishal",
+      href: "https://www.linkedin.com/in/akshat-vishal-64238b240/",
+      img: "/photos/me.jpg",
       description:
-        'Video Editor & Motion Graphics Designer. Skilled in crafting engaging visuals and shooting creative ad campaigns that leave impact.',
+        "Video Editor & Motion Graphics Designer. Skilled in crafting engaging visuals and shooting creative ad campaigns that leave impact.",
     },
     {
-      label: 'Dev Vishwakarma',
-      value: 'linkedin.com/in/devvishwakarma',
-      href: 'https://linkedin.com/in/devvishwakarma',
-      img: '/photos/dev photo.jpg',
+      label: "Vansh Bisht",
+      value: "linkedin.com/in/vanshbisht20",
+      href: "https://www.linkedin.com/in/vanshbisht20/",
+      img: "/photos/WhatsApp Image 2025-11-21 at 20.13.34_161c4ddc.jpg",
       description:
-        'Videographer & Cinematographer with hands-on experience in directing and producing short films, bringing creative storytelling to life through the lens.',
-    },
-    {
-      label: 'Abhay Singh',
-      value: 'linkedin.com/in/abhaysingh',
-      href: 'https://linkedin.com/in/abhaysingh',
-      img: '/photos/abhay_photo.jpg',
-      description:
-        'Video Editor & Cinematographer specializing in cinematic edits and storytelling. Skilled in video production and crafting visuals that connect with audiences.',
+        "Cinematographer, Marketing Head, and Multi-discipline Designer blending visuals, branding, and product design to create meaningful experiences.",
     },
   ];
 
@@ -32,8 +24,12 @@ export default function ContactSection() {
     <section className="bg-gray-100 py-20 flex flex-col items-center text-center px-4">
       {/* Icon */}
       <div className="mb-6">
-        <div className="flex w-full justify-center mb-10">
-          <img src="/photos/telephone.png" alt="telephone icon" className="w-12 h-12" />
+        <div className="flex w-full mb-10">
+          <img
+            src="/photos/telephone.png"
+            alt="telephone icon"
+            className="w-12 h-12"
+          />
         </div>
       </div>
 
@@ -43,8 +39,8 @@ export default function ContactSection() {
       </h2>
       <p className="text-gray-600 mb-10">We Would Love To Connect With You!</p>
 
-      {/* Contact Cards (responsive grid) */}
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full max-w-6xl items-stretch px-4">
+      {/* Contact Cards */}
+      <div className="flex justify-around w-9/12 max-w-6xl items-stretch px-4">
         {contacts.map((item) => (
           <a
             key={item.label}
@@ -59,7 +55,9 @@ export default function ContactSection() {
                 alt={item.label}
                 className="w-28 h-28 rounded-full object-cover mb-6"
               />
-              <span className="font-semibold text-lg text-gray-800 mb-3">{item.label}</span>
+              <span className="font-semibold text-lg text-gray-800 mb-3">
+                {item.label}
+              </span>
               <p className="text-sm text-gray-600 leading-relaxed max-w-[18rem]">
                 {item.description}
               </p>
