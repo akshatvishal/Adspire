@@ -9,7 +9,7 @@ const Testimonials = () => {
       role: "Co-founder",
       company: "Creative Script",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face",
-      content: "Working with Akshat was a game-changer .He turned our raw ideas into videos that truly connect with our audience",
+      content: "Working with Adspire was a game-changer .They turned our raw ideas into videos that truly connect with our audience",
       rating: 5
     },
     {
@@ -18,7 +18,7 @@ const Testimonials = () => {
       role: "Founder & CEO",
       company: "Estu",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face",
-      content: "Akshat’s edits and motion graphics elevated our campaigns.He understood our brand voice and delivered content that stands out",
+      content: "Adspire's team edits and motion graphics elevated our campaigns.They understood our brand voice and delivered content that stands out",
       rating: 5
     },
     {
@@ -27,7 +27,7 @@ const Testimonials = () => {
       role: "Co-founder", 
       company: "Fuzzle",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face",
-      content: "From concept to final cut, Akshat brought clarity and creativity.Our brand engagement has never been higher.",
+      content: "From concept to final cut, Adspire brought clarity and creativity.Our brand engagement has never been higher.",
       rating: 5
     }
   ];
